@@ -29,7 +29,7 @@
         <div class="lg:hidden">
 
 
-            <div class="navbar bg-base-100 flex-row-reverse">
+            <div class="navbar bg-base-100 flex-row-reverse my-7">
                 <div class="flex-none">
                   <button class="btn btn-square btn-ghost">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
@@ -45,24 +45,12 @@
 
         </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
         <!-- Navbar for large device -->
 
 
         <div class="hidden lg:block">
 
-            <div class="bg-[#F85559] flex justify-evenly items-center rounded-full p-6 container mx-auto" >
+            <div class="bg-[#F85559] flex justify-evenly items-center rounded-full p-6 container mx-auto my-7" >
                 <ul class="flex gap-7 text-white items-center font-normal">
                     <li><a href="">Home</a></li>
                     <li><a href="">About Us</a></li>
@@ -80,12 +68,91 @@
                     xl:w-[300px]">
                     <i class="fa-solid fa-magnifying-glass absolute top-5 right-8"></i>
                 </div>
-            </div>
+            </div> 
 
 
         </div>
     
        </nav>
+
+    <!-- Exotic tastes at your doorstep Section -->
+
+    <section class="container mx-auto ">
+        <div class=" mx-5 mt-12 lg:mx-16 xl:mx-40 2xl:mx-60 relative mb-6 md:mb-10">
+
+          <div class="text-center absolute z-50 left-14 md:left-28 lg:left-44 xl:left-52 2xl:left-60 top-4 md:top-16 text-white ">
+            <h3 class="font-bold text-2xl md:text-6xl pb-1 md:pb-3 lg:pb-6">Exotic tastes at your <br> doorstep</h3>
+            <p class="font-normal text-sm md:text-xl pb-3 lg:pb-5 xl:pb-10 ">We supply highly quality organic products</p>
+            <b class=" px-3 py-2 md:px-5 md:py-4 bg-[#F85559] rounded-lg font-bold text-sm md:text-lg">Shop Now</b>
+          </div>
+
+
+
+          <div class="carousel w-full bg-gradient-to-b from-[#121212] to-gray-500 ">
+            <div id="slide1" class="carousel-item relative w-full mix-blend-overlay">
+              <img src="./images/banner1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle bg-black text-white border-none">❮</a> 
+                <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full mix-blend-overlay">
+              <img src="./images/banner2.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle bg-black text-white border-none">❮</a> 
+                <a href="#slide3" class="btn btn-circle bg-black text-white border-none">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full mix-blend-overlay">
+              <img src="./images/banner3.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❮</a> 
+                <a href="#slide4" class="btn btn-circle bg-black text-white border-none">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full mix-blend-overlay">
+              <img src="./images/banner4.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle bg-black text-white border-none">❮</a> 
+                <a href="#slide1" class="btn btn-circle bg-black text-white border-none">❯</a>
+              </div>
+            </div>
+          </div>
+         
+          <div class="hidden lg:block">
+            <div class="bg-white drop-shadow-lg flex justify-evenly z-40 lg:-mt-16 xl:-mt-20 2xl:-mt-24  px-16 py-6 mx-20 ">
+              <div class="flex-row text-center">
+                <img src="./images/fruit1.png" alt="">
+              <h3 class="pt-4">Grape</h3>
+              </div> 
+  
+              <div class="flex-row text-center" >
+                <img src="./images/fruit2.png" alt="">
+              <h3 class="pt-4">Orange</h3>
+              </div>
+  
+              <div class="flex-row text-center">
+                <img src="./images/fruit3.png" alt="">
+              <h3 class="pt-4">Mango</h3>
+              </div>
+  
+              <div class="flex-row text-center">
+                <img src="./images/fruit4.png" alt="">
+              <h3 class="pt-4">Strawberry</h3>
+              </div>
+  
+              <div class="flex-row text-center">
+                <img src="./images/fruit5.png" alt="">
+              <h3 class="pt-4">Pomegranate</h3>
+              </div>
+  
+            </div>
+          </div>
+
+        </div>
+
+    </section>
+
     </header>
 
     <main>
